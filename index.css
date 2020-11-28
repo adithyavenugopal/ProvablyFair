@@ -1,0 +1,94 @@
+html, body{
+	width: 100%; 
+	height: 100%; 
+	padding: 0; 
+	margin: 0;
+	font-family: Arial;
+}
+div{
+	position:absolute;
+	display:flex;
+	flex-direction:vertical;
+	justify-content: center;
+	align-items: center;
+	padding:0;
+	margin:0;
+}
+#o1{
+	top: 0; 
+	left: 0;
+	right: 80%;
+	bottom: 0%;
+}
+#o2 {
+	top: 0; 
+	left: 20%;
+	right: 60%;
+	bottom: 0%;
+}
+#o3 {
+	top: 0; 
+	left: 40%;
+	right: 40%;
+	bottom: 0%;
+}
+#o4 {
+	top: 0; 
+	left: 60%;
+	right: 20%;
+	bottom: 0%;
+}
+#o5 {
+	top: 0; 
+	left: 80%;
+	right: 0%;
+	bottom: 0%;
+}
+.inside{
+	color: Black;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	display:block;
+}
+
+.insidehover{
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	display: none;
+	text-align: center;
+}
+
+p{
+	padding: 20px;
+}
+
+
+#o1:hover{
+	cursor:pointer;
+	background: #ead6c7;
+}
+#o2:hover{
+	cursor:pointer;
+	background: #f47171;
+}
+#o3:hover{
+	cursor:pointer;
+	background: #3156ec;
+}
+#o4:hover{
+	cursor:pointer;
+	background: #f47171;
+}
+#o5:hover{
+	cursor:pointer;
+	background: #3156ec;
+}
+div:hover .inside{
+	display:none;
+}
+div:hover .insidehover{
+	display:block;
+}
+
