@@ -27,6 +27,54 @@ p{
 	width: 300px;
 	padding: 30px;
 	height: 300px;
+	position:relative;
+}
+#user_bar{
+	background: green;
+	position: absolute;
+	bottom: 0%;
+	left: 0%;
+	height: 0%;
+	width: 33%;
+}
+#computer_bar{
+	background: red;
+	position: absolute;
+	bottom: 0%;
+	left: 33%;
+	height: 0%;
+	width: 33%;
+}
+#draw_bar{
+	background: yellow;
+	position: absolute;
+	bottom: 0%;
+	left: 66%;
+	height: 0%;
+	width: 33%;
+}
+#win_per{
+	position:absolute;
+	top:10%;
+	display:block;
+	color:white;
+	font-size: 25px;
+}
+#lose_per{
+	position:absolute;
+	top:10%;
+	left:33%;
+	display:block;
+	color:white;
+	font-size: 25px;
+}
+#draw_per{
+	position:absolute;
+	top:10%;
+	left:66%;
+	display:block;
+	color:white;
+	font-size: 25px;
 }
 .Scoreboard{
 	margin: 20px auto;
@@ -38,6 +86,30 @@ p{
 	position:relative;
 	text-align: center;
 }
+.win_tag{
+	background: red;
+	padding: 5px;
+	position: absolute;
+	font-size: 20px;
+	top: 10%;
+	left: -10px;
+}
+.loss_tag{
+	background: red;
+	padding: 5px;
+	position: absolute;
+	font-size: 20px;
+	top: 40%;
+	left: -10px;
+}
+.draw_tag{
+	background: red;
+	padding: 5px;
+	position: absolute;
+	font-size: 20px;
+	top: 70%;
+	left: -10px;
+}
 .Options{
 	font-size: 30px;
 	color:white;
@@ -46,10 +118,24 @@ p{
 .Choice{
 	display:inline-block;
 	border: 3px solid white;
-	padding: 5px;
+	border-radius: 50%;
+	margin: 10px;
+	padding: 10px;
 }
 
 .Choice:hover{
 	color:Red;
 	cursor: pointer;
+}
+
+.win {
+	border: 3px solid green;
+}
+
+.lose {
+	border: 3px solid red;
+}
+
+.draw {
+	border: 3px solid yellow;
 }
