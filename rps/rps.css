@@ -9,7 +9,7 @@ body{
 }
 header{
 	background-color: white;
-	height: 100px;
+	height: 75px;
 	text-align: center;
 }
 header h1{
@@ -26,11 +26,11 @@ p{
 	border: 3px solid white;
 	width: 300px;
 	padding: 30px;
-	height: 300px;
+	height: 200px;
 	position:relative;
 }
 #user_bar{
-	background: green;
+	background: #256627;
 	position: absolute;
 	bottom: 0%;
 	left: 0%;
@@ -46,7 +46,7 @@ p{
 	width: 33%;
 }
 #draw_bar{
-	background: yellow;
+	background: #edc254;
 	position: absolute;
 	bottom: 0%;
 	left: 66%;
@@ -81,16 +81,16 @@ p{
 	border: 3px solid white;
 	width:200px;
 	color:white;
-	font-size:40px;
+	font-size:30px;
 	padding: 10px;
 	position:relative;
 	text-align: center;
 }
 .win_tag{
-	background: red;
+	background: green;
 	padding: 5px;
 	position: absolute;
-	font-size: 20px;
+	font-size: 15px;
 	top: 10%;
 	left: -10px;
 }
@@ -98,15 +98,15 @@ p{
 	background: red;
 	padding: 5px;
 	position: absolute;
-	font-size: 20px;
+	font-size: 15px;
 	top: 40%;
 	left: -10px;
 }
 .draw_tag{
-	background: red;
+	background: #edc254;
 	padding: 5px;
 	position: absolute;
-	font-size: 20px;
+	font-size: 15px;
 	top: 70%;
 	left: -10px;
 }
@@ -126,6 +126,18 @@ p{
 .Choice:hover{
 	color:Red;
 	cursor: pointer;
+}
+
+.Button{
+	background: white;
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+	color: black;
+}
+.Button:hover{
+	cursor: pointer;
+	background: #999;
 }
 
 .win {
